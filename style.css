@@ -1,10 +1,14 @@
+.navbar-nav > a{
+    color: #fff !important;
+}
+
 .box{
     background-image:url('./img/tyre-push-2141096_1920.jpg');
     background-size: cover;
     
 }
 .overlay{
-    background-color: rgba(75, 99, 235, 0.288); 
+    background-color: rgba(75, 99, 235, 0.5); 
 }
 .chamada{
    padding: 12% 0 ;
@@ -21,13 +25,14 @@
     color: #fff;
 }
 .box-img{
-    background-color: rgb(75, 99, 235);
-    background-size: 80%;
+    background-image: linear-gradient(to right,transparent 10%, rgb(75, 99, 235)10%);
     height: 380px;
 }
 .box3{
     padding-left:10% !important;
+    padding-right:10% !important;
     padding-top: 5%;
+    
 }
 .subtitulo{
     color: rgb(75, 99, 235);
@@ -36,4 +41,13 @@
 }
 .nevegacao{
     background-color: transparent !important;
+}
+.right{
+     margin-left: 55%;
+}
+
+@media (max-width: 980px){
+    .right{
+        margin-left: 0;
+    }
 }
